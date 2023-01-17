@@ -79,3 +79,5 @@ driver.findElement(By.xpath("//button[text()='✕']")).click();
 		driver.findElement(By.xpath("//a[text()='Mi']")).click();
 	}
 }
+
+//added comment
