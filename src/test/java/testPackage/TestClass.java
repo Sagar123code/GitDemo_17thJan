@@ -64,4 +64,18 @@ driver.findElement(By.xpath("//button[text()='✕']")).click();
 		
 		driver.findElement(By.xpath("//a[text()='Mi']")).click();
 	}
+	
+	@Test(enabled=false)
+	public void secondTestCheckforBranch() {
+driver.findElement(By.xpath("//button[text()='✕']")).click();
+		
+		driver.findElement(By.xpath("//div[text()='Mobiles']")).click();
+		
+		Actions action=new Actions(driver);
+		
+		action.moveToElement(driver.findElement(By.xpath("//span[text()='Electronics']"))).perform();
+//		driver.findElement(By.xpath("//span[text()='Electronics']")).click();
+		
+		driver.findElement(By.xpath("//a[text()='Mi']")).click();
+	}
 }
