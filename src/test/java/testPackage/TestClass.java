@@ -28,6 +28,10 @@ public class TestClass {
 		
 		this.driver=driver;
 		
+//		writing below code to commiting purpose
+		driver.manage().window().minimize();
+		driver.manage().window().maximize();
+		
 		
 	}
 	
